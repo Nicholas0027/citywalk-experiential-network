@@ -1,0 +1,7 @@
+Analytic component,Multi-agent workflow,Single-prompt baseline
+POI extraction precision,94.3%,83.5%
+Route-sequence agreement,96.6%,61.0%
+Route-theme agreement,71.0%,62.0%
+Pleasure agreement,86.9%,73.1%
+Arousal agreement,75.0%,57.0%
+Dominance agreement,80.0%,67.4%

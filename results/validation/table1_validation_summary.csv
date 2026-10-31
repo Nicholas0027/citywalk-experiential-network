@@ -1,0 +1,10 @@
+Output component,Evaluation unit,Correct or matched,Evaluated,Result
+POI extraction precision,LLM-extracted POI,411,436,94.3%
+POI extraction recall,Gold-standard POI,411,411,100.0%
+POI extraction F1,POI,NA,NA,97.1%
+Validated-coordinate coverage,Matched POI,411,411,100.0%
+Route sequence,Route with recoverable sequence evidence,57,59,96.6%
+Route theme,Sampled route,71,100,71.0%
+Pleasure,POI record,379,436,86.9%
+Arousal,POI record,327,436,75.0%
+Dominance,POI record,349,436,80.0%

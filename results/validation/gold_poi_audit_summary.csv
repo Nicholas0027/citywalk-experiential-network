@@ -1,0 +1,6 @@
+﻿Theme group,Routes,Gold POIs,LLM extracted POIs,Unique matched LLM POIs,Matched gold POIs,LLM false positives,Precision,Recall,F1
+Commercial & Tourism,25,209,137,131,147,6,95.6%,70.3%,81.1%
+Historical & Art,25,212,113,106,126,7,93.8%,59.4%,72.8%
+Nature,25,141,84,77,102,7,91.7%,72.3%,80.9%
+Local Life,25,160,102,97,120,5,95.1%,75.0%,83.9%
+Total,100,722,436,411,495,25,94.3%,68.6%,79.4%

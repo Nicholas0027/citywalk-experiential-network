@@ -1,0 +1,17 @@
+pandas
+numpy
+scipy
+statsmodels
+networkx
+python-louvain
+scikit-learn
+matplotlib
+seaborn
+geopandas
+shapely
+pyproj
+contextily
+openpyxl
+openai
+pypinyin
+requests

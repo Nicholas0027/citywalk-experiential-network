@@ -1,0 +1,7 @@
+﻿POI aggregation threshold (m),Edge split threshold (m),Nodes,Unique edges,Retained transitions (%),Top-10 node overlap,Top-10 edge overlap
+50,1500,2990,3228,39.0,10/10,10/10
+100,1000,2413,2275,29.9,10/10,6/10
+100,1500,2413,2879,38.3,10/10,10/10
+100,2000,2413,3356,43.1,10/10,10/10
+100,3000,2413,4173,50.3,10/10,10/10
+200,1500,1796,2246,37.8,9/10,8/10
