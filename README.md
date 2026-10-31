@@ -82,6 +82,20 @@ python visualization/build_citywalk_visualisation.py
 
 ## Data and workflow
 
+The tables follow the processing stages reported in the manuscripts:
+
+| File or output | Records | Posts |
+| --- | ---: | ---: |
+| `data/analysis/final_poi_records.csv` | 26,131 POI records | 4,528 |
+| `data/analysis/clean_poi_records.csv` | 25,380 geographically screened POI records | 4,489 |
+| `data/analysis/reference_nodes_100m_1500m.csv` | 2,413 network nodes | — |
+| `data/analysis/reference_edges_100m_1500m.csv` | 2,879 directed connections | — |
+| `data/validation/route/route_validation_sample_pois.csv` | 436 validation POI records | 100 |
+
+The interactive page uses the geographically screened records. Its post and
+POI totals are calculated from that input when the page is built. Reported
+validation metrics are archived in `results/validation/table1_validation_summary.csv`.
+
 `data/analysis/final_poi_records.csv` contains the linked POI, sequence, theme,
 appraisal, and coordinate records, with internal post identifiers. Geographic screening
 produces the reference network stored as
