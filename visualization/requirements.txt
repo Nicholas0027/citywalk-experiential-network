@@ -1,4 +1,0 @@
-pandas
-networkx
-geopandas
-pypinyin

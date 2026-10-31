@@ -1,0 +1,83 @@
+{
+  "title": "Citywalk Experiential Network Data",
+  "repository": "https://github.com/Nicholas0027/citywalk-experiential-network",
+  "study_area": "Xiamen, China",
+  "source_platform": "Xiaohongshu (RedNote)",
+  "encoding": "UTF-8 with BOM",
+  "coordinate_reference_system": "WGS 84 (EPSG:4326)",
+  "spatial_aggregation_m": 100,
+  "maximum_adjacent_transition_m": 1500,
+  "files": [
+    {
+      "file": "data/poi_records.csv",
+      "rows": 26131,
+      "posts": 4528,
+      "columns": [
+        "note_index",
+        "original_date",
+        "location_index",
+        "location_POI",
+        "is_inherited",
+        "P_score",
+        "A_score",
+        "D_score",
+        "Primary_Theme",
+        "lng",
+        "lat"
+      ],
+      "sha256": "0db3c8730699c28ad5f0ca281abc253ed13670f559a1832d87ed5e5398fef823"
+    },
+    {
+      "file": "data/network_input_records.csv",
+      "rows": 25380,
+      "posts": 4489,
+      "columns": [
+        "note_index",
+        "original_date",
+        "location_index",
+        "location_POI",
+        "is_inherited",
+        "P_score",
+        "A_score",
+        "D_score",
+        "Primary_Theme",
+        "lng",
+        "lat"
+      ],
+      "sha256": "40fc39f3193fb338067d0be77a97f5d4de7a05726f5a9ced31ef72a284154d90"
+    },
+    {
+      "file": "data/network_nodes.csv",
+      "rows": 2413,
+      "posts": null,
+      "columns": [
+        "cluster_id",
+        "lng",
+        "lat",
+        "location_POI",
+        "Primary_Theme",
+        "point_weight",
+        "mean_P",
+        "mean_A",
+        "mean_D"
+      ],
+      "sha256": "ecf584b379a1ba37fbbb7f670835750043fe90ae551407141485c372d49ee88a"
+    },
+    {
+      "file": "data/network_edges.csv",
+      "rows": 2879,
+      "posts": null,
+      "columns": [
+        "start",
+        "end",
+        "line_weight",
+        "Theme",
+        "mean_distance_m",
+        "start_POI",
+        "end_POI",
+        "edge_label"
+      ],
+      "sha256": "41b1e33da3f0bae16cebefddf785bb39e44a2aa10580af0db91a1319891ab858"
+    }
+  ]
+}
